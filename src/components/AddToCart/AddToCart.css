@@ -1,0 +1,26 @@
+.cartContainer {
+  margin-top: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cartTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.cartTable th,
+.cartTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.cartTable th {
+  background-color: #f2f2f2;
+}
+
+.cartTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
